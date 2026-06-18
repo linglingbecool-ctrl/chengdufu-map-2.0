@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>交互地图｜图绘成都</title>
+    <meta
+      name="description"
+      content="点击《全图·成都府图》中的地图点位，查看古今名称、状态判断、释读依据与图像资料。"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="site-hero page-hero" id="top">
+      <nav class="topbar" aria-label="站点导航">
+        <a class="brand" href="index.html">图绘成都</a>
+        <div class="navlinks">
+          <a href="archive.html">项目档案</a>
+          <a href="map.html">交互地图</a>
+          <a href="citywalk.html">Citywalk</a>
+          <a href="cocreate.html">公众共创</a>
+          <a href="about.html">说明</a>
+        </div>
+      </nav>
+      <div class="hero-inner">
+        <p class="eyebrow">Interactive Map</p>
+        <h1>交互地图</h1>
+        <p class="subtitle">点击古图点位，进入古今对照</p>
+      </div>
+    </header>
+
+    <main>
+      <section class="map-section" aria-labelledby="map-title">
+        <div class="section-heading">
+          <div>
+            <div class="section-label">Interactive Map</div>
+            <h2 id="map-title">古图点位导览</h2>
+          </div>
+          <p>
+            点击地图上的点位，查看古图名称、今日对应地点、空间类型、状态判断、释读依据与延展说明。标记颜色表示点位的存续、变迁或待考状态。
+          </p>
+        </div>
+
+        <div class="map-workbench">
+          <div class="map-panel" aria-label="成都府古图">
+            <img
+              class="map-image"
+              src="./chengdu-map.png"
+              alt="四川成都府古图底图"
+            />
+            <div class="map-markers" id="mapMarkers" aria-label="地图点位"></div>
+
+            <div class="legend" aria-label="点位图例">
+              <span><i class="dot status-existing"></i>存续点</span>
+              <span><i class="dot status-changed"></i>变迁点</span>
+              <span><i class="dot status-uncertain"></i>不确定点</span>
+            </div>
+          </div>
+
+          <aside class="detail-panel" aria-live="polite">
+            <div class="detail-kicker">Point Detail</div>
+            <article class="point-card" id="pointDetail">
+              <p class="empty-state">
+                请选择地图点位，查看古今对照信息。
+              </p>
+            </article>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a href="index.html">返回首页</a>
+      <span>图绘成都 · 交互地图</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

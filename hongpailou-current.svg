@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="红牌楼今景待补充">
+  <rect width="800" height="600" fill="#eadfcb"/>
+  <path d="M0 420 C125 382 228 430 350 392 C498 346 622 380 800 330 L800 600 L0 600z" fill="#9fb9a8"/>
+  <path d="M66 455 H734" stroke="#7e3528" stroke-width="22" stroke-linecap="round"/>
+  <path d="M142 492 H632" stroke="#355f57" stroke-width="14" stroke-linecap="round"/>
+  <g fill="#f8efe0" stroke="#a84f36" stroke-width="6">
+    <rect x="128" y="215" width="118" height="190"/>
+    <rect x="326" y="150" width="148" height="255"/>
+    <rect x="555" y="235" width="112" height="170"/>
+  </g>
+  <g fill="#a84f36">
+    <rect x="100" y="182" width="595" height="34"/>
+    <rect x="118" y="160" width="560" height="28"/>
+    <rect x="150" y="210" width="22" height="190"/>
+    <rect x="628" y="210" width="22" height="190"/>
+  </g>
+  <g fill="#24211c" font-family="Songti SC, serif" font-size="42" font-weight="700">
+    <text x="215" y="285">红牌楼今景</text>
+    <text x="247" y="342" font-size="30">待补充照片</text>
+  </g>
+  <rect x="24" y="24" width="752" height="552" fill="none" stroke="#7e3528" stroke-width="3"/>
+</svg>
